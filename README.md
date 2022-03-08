@@ -1,10 +1,10 @@
 # Courses_hippiques 
 
-###Groupe:
+## Groupe:
   - AZIZE Younez
   - MENDACI Zahir
 
-###Développé avec:
+## Développé avec:
   - Java
   - MySQL
   - Eclipse
