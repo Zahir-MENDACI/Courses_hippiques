@@ -1,35 +1,35 @@
 package model;
 
 import java.util.Date;
-import java.util.List;
 
 public class Course {
+	int id;
 	String name;
-	Date date;
-	List<Cheval> cheval;
+	public Date date;
 	
-	public Course(String name, Date date, List<Cheval> cheval) {
+	public Course() {
+		name = "";
+		date = new Date();
+	}
+	public Course(String name, Date date) {
+		this();
 		this.name = name;
 		this.date = date;
-		this.cheval = cheval;
 	}
-	
+	public Course(int id, String name, Date date) {
+		this();
+		this.id = id;
+		this.name = name;
+		this.date = date;
+	}
+
+	public int getId() {
+		return id;
+	}
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) {
-		this.name = name;
-	}
 	public Date getDate() {
 		return date;
-	}
-	public void setDate(Date date) {
-		this.date = date;
-	}
-	public List<Cheval> getCheval() {
-		return cheval;
-	}
-	public void setCheval(List<Cheval> cheval) {
-		this.cheval = cheval;
 	}
 }

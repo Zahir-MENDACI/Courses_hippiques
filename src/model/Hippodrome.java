@@ -2,17 +2,20 @@ package model;
 
 public class Hippodrome {
 
+	int id;
 	String name;
+	
+	public Hippodrome() {
+		name = "hippo Test";
+	}
 
-	public Hippodrome(String name) {
+	public Hippodrome(int id, String name) {
+		this();
+		this.id = id;
 		this.name = name;
 	}
 
 	public String getName() {
 		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
 	}
 }

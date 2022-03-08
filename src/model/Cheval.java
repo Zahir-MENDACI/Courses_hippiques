@@ -14,20 +14,11 @@ public class Cheval {
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) {
-		this.name = name;
-	}
 	public int getAge() {
 		return age;
 	}
-	public void setAge(int age) {
-		this.age = age;
-	}
 	public int getNbVitoire() {
 		return nbVitoire;
-	}
-	public void setNbVitoire(int nbVitoire) {
-		this.nbVitoire = nbVitoire;
 	}
 
 }
