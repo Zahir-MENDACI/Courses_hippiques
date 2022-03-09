@@ -1,7 +1,7 @@
 # Courses_hippiques 
 
 ## Groupe:
-  - AZIZE Younez
+  - AZIZE Younes
   - MENDACI Zahir
 
 ## Développé par:
