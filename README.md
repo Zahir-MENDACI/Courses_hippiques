@@ -16,3 +16,5 @@
     
   Pour la partie données, notre application a été connecté à un serveur de base de données MySQL distant.
 
+## Coverage
+## <img width="963" alt="cov" src="https://user-images.githubusercontent.com/25746947/157414403-c8f9bb0d-e780-4239-8dfe-4361039f0e75.PNG">
